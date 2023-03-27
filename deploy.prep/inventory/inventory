@@ -1,7 +1,7 @@
 [internetweb]
-serverb.lab.example.com
+saXXX.test.local
 
 [intranetweb]
-servera.lab.example.com
-serverc.lab.example.com
-serverd.lab.example.com
+sbXXX.test.local
+scXXX.test.local
+sdXXX.test.local
