@@ -71,7 +71,7 @@ tasks:
 ```yaml
     - name: test php page is installed
       get_url:
-        url: "http://materials.example.com/labs/playbook-review/index.php"
+        url: "http://172.16.195.70/labs/playbook-review/index.php"
         dest: /var/www/html/index.php
         mode: 0644
 ```
