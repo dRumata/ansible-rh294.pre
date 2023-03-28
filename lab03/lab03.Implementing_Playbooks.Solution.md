@@ -67,7 +67,7 @@ tasks:
         state: started
 ```
 
-5. Добавьте необходимые записи, чтобы определить конечную задачу по созданию веб-контента для тестирования. Используйте модуль **get_url** для копирования http://materials.example.com/labs/playbook-review/index.php в **/var/www/html/** на управляемом хосте.
+5. Добавьте необходимые записи, чтобы определить конечную задачу по созданию веб-контента для тестирования. Используйте модуль **get_url** для копирования http://172.16.195.70/labs/playbook-review/index.php в **/var/www/html/** на управляемом хосте.
 ```yaml
     - name: test php page is installed
       get_url:
