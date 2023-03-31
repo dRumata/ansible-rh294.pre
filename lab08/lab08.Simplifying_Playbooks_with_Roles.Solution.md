@@ -49,7 +49,7 @@ Once complete, the **roles/requirements.yml** file contains:
 или
 ```yaml
 - name: infra.apache
-  src: https://github.com/academynusa/infra_apache
+  src: https://github.com/drumata/infra_apache
   scm: git
   version: v1.4
 ```
