@@ -46,6 +46,13 @@ Once complete, the **roles/requirements.yml** file contains:
   scm: git
   version: v1.4
 ```
+или
+```yaml
+- name: infra.apache
+  src: https://github.com/academynusa/infra_apache
+  scm: git
+  version: v1.4
+```
 
 4.3. Install the project dependencies.
 ```console
